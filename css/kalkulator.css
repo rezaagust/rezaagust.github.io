@@ -1,0 +1,64 @@
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.flex-container-row {
+    display: flex;
+}
+
+.button {
+    cursor: pointer;
+    flex-basis: 25%;
+    font-size: 1rem;
+    text-align: center;
+    padding: 30px;
+    border: 1.5px solid #20639b;
+    background: -webkit-linear-gradient(center, #a8dadc, rgb(199, 33));
+    background-color: #fff;
+}
+
+body {
+    background: url("https://images.unsplash.com/photo-1560355206-7bdbaa06ea8c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+}
+
+.double {
+    flex-basis: 50%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.display {
+    color: #a8dadc;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #808080;
+    border: 1px solid #20639b;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.operator, .negative, .equals {
+    background-color: #a8dadc;
+    color: #000;
+    border: 1px solid #20639b;
+}
+
+.button:hover {
+    font-weight: bold;
+    background: #808080;
+}
+
+/* Button Kalkulator */
+.button {
+    padding: 40px 10px;
+}
